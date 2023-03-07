@@ -1,0 +1,43 @@
+course = 'Python for Beginners'
+
+# Calculate the number of characters in a string useing len()
+# len() stands for length
+# spaces count as characters
+
+print(len(course))
+
+# can be used to set a limit on how many characters a user can enter
+
+
+# .upper() is a method that converts the string into uppercase
+course.upper()
+
+# methods do not change the original variable, instead they create a new string.
+
+# .lower() is a method that convers the string into lowercase
+course.lower()
+
+
+# .find() returns the index of the first time a character appears in the string
+
+course.find('P')
+# the index of "P" is course is 0
+
+course.find('O')
+# since capital "O" does not exist, the value would be -1
+
+course.find('Beginners')
+# since 'Beginners' starts at index 11, the value would be 11
+
+
+# .replace('oldstring', 'newstring') 
+
+course.replace('Beginners', 'Absolute Beginners')
+# replaces the workd 'Beginners' with 'Absolute Beginners'
+
+
+# Writing an expression to see if a string exists in a variable
+'Python' in course
+# returns the Boolean value "True" if printed
+
+
